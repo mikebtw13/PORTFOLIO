@@ -87,8 +87,6 @@ body {
 .contact-left button img {
   height: 15px;
 }
-
-
 .main-container {
   background-color: #151925;
   display: flex;
@@ -96,7 +94,6 @@ body {
   padding-right: 5px;
   align-items: start;
   justify-content: space-between;
-  gap: 20px;
 }
 
 @media (max-width: 991px) {
@@ -434,12 +431,12 @@ body {
 
 .content-section {
   float: left;
-  width: 55%;
+  width: 60%;
 }
 
 .image-section {
   float: right;
-  width: 40%;
+  width: 400px;
 }
 
 .image-section img {

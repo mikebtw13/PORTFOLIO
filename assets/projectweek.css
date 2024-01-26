@@ -1,0 +1,338 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-family: "Fuggles", cursive;
+  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: xx-large;
+  color: black;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  gap: 40px;
+  background-color: #274a59;
+}
+ul a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#home {
+  background-color: yellow;
+  border-radius: 10px;
+}
+#vakken {
+  background-color: white;
+  border-radius: 10px;
+}
+#jouwtoekomst {
+  background-color: yellow;
+  border-radius: 10px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  margin-right: 5px;
+}
+/*homepage*/
+.headhome {
+  width: 100vw;
+  height: 180px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bloksd {
+  width: 250px;
+  height: 90px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+.lijstrij2 {
+  width: 100vw;
+  height: 300px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.lijstbox{
+  width: 633px;
+  height: 223px;
+  background-color: yellow;
+  margin-right: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+}
+.rij3wit {
+  width: 100vw;
+  height: 300px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxwit1{
+  width: 633px;
+  height: 223px;
+  background-color: white;
+  margin-left: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+}
+.boxwit1 h3{
+  margin-left: 10px;
+}
+.rij4wit {
+  width: 100vw;
+  height: 300px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxwit2l{
+  width: 1118px;
+  height: 234px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+}
+.boxwit2l h3{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.stagerij {
+  width: 100vw;
+  height: 300px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.stageblokgroen{
+  width: 483px;
+  height: 261px;
+  background-color: #74CC72;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-size: 22px;
+}
+.stageblokgroen h1{
+  color: rgb(133, 48, 133);
+  font-size: 40px;
+}
+.rij6groot {
+  width: 100vw;
+  height: 900px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxzwart{
+  width: 472px;
+  height: 99px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.boxzwart h1{
+  color: white;
+  font-size: 50px;
+}
+.opleidingwit1{
+  width: 1106px;
+  height: 259px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.opleidingwit1 h3{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.opleidingwitgroot{
+  width: 1430px;
+  height: 289px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.opleidingwitgroot h3{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fotoengeelblok {
+  width: 100vw;
+  height: 500px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imgpage1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vragen{
+  width: 705px;
+  height: 309px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.vragen h2{
+  color: rgb(75, 143, 143);
+}
+.faq {
+  width: 100vw;
+  height: 500px;
+  background-color: #497f96;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.faqblok{
+  width: 1036px;
+  height: 289px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 300px;
+}
+.faqblok h3{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+/*dit is de vakken pagina*/
+.vakkenhead {
+  width: 100vw;
+  height: 100px;
+  background-color: #497f96;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.vakkenblok {
+  width: 270px;
+  height: 50px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regel {
+  width: 100vw;
+  height: 500px;
+  background-color: #497f96;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: black;
+}
+.geelblok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 630px;
+  height: 361px;
+  background-color: #efe612;
+}
+.flexblox {
+  display: flex;
+  flex-direction: column;
+}
+.witblok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 630px;
+  height: 361px;
+  background-color: rgba(255, 255, 255, 0.938);
+}
+#cisco {
+  margin-top: 50px;
+}
+.grooteimg {
+  margin-bottom: 20px;
+}
+footer {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  color: #ffff00;
+  align-items: stretch;
+  display: flex;
+  background-color: #274a59;
+  width: 100%;
+  height: 100px;
+}
+.footerlayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 270px;
+  margin-left: 570px;
+}
