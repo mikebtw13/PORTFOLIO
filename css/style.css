@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
@@ -32,7 +33,6 @@ body {
 
 .contact-left-title h2 {
   font-weight: 600;
-  color: #1029a5;
   font-family: 'Sen', sans-serif;
 }
 
@@ -40,7 +40,6 @@ body {
   border: none;
   width: 120px;
   height: 5px;
-  background-color: #262263;
   border-radius: 10px;
   position: relative;
 }
@@ -52,7 +51,6 @@ body {
   outline: none;
   padding-left: 25px;
   font-weight: 500;
-  color: #204349;
   border-radius: 50px;
   font-family: 'Sen', sans-serif;
 }
@@ -87,6 +85,7 @@ body {
 .contact-left button img {
   height: 15px;
 }
+
 .main-container {
   background-color: #151925;
   display: flex;
@@ -110,6 +109,7 @@ body {
   font: 800 24px 'Sen', sans-serif;
 }
 
+/*NavBar*/
 .nav {
   display: flex;
   align-items: flex-start;
@@ -135,20 +135,18 @@ body {
 }
 
 .header-text {
-  font-size: 80px;
+  font-size: 50px;
   font-family: 'Sen', sans-serif;
   color: #ffffff;
-  margin-top: 90px;
+  margin-top: 110px;
   position: relative;
 }
 
 .header-text h1 {
   font-size: 60px;
-  margin-top: 20px;
 }
 
 .small-text {
-  margin-top: 20px;
   font-size: 50%;
 }
 
@@ -180,10 +178,11 @@ body {
 /* foto */
 .image {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 500px;
 }
 
 .image img {
@@ -195,10 +194,11 @@ body {
   margin-top: -55%;
 }
 
+/*Onderste gedeelte van de website*/
 footer {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background: #3b369f;
   display: flex;
   flex-direction: column;
@@ -347,19 +347,9 @@ body {
 
 .contact-left-title h2 {
   font-weight: 600;
-  color: #1029a5;
+  color: #ffffff;
   font-family: 'sen', sans-serif;
 }
-
-.contact-left-title hr {
-  border: none;
-  width: 120px;
-  height: 5px;
-  background-color: #262263;
-  border-radius: 10px;
-  position: relative;
-}
-
 .contact-inputs {
   width: 400px;
   height: 50px;
@@ -409,6 +399,8 @@ body {
   text-align: right;
 }
 
+
+/* Over Mij Pagina */
 * {
   margin: 0px;
   padding: 0px;
@@ -419,7 +411,7 @@ body {
 .section {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(#12104f,#262263);
+  background: linear-gradient(#12104f, #262263);
 }
 
 .container {
@@ -431,7 +423,7 @@ body {
 
 .content-section {
   float: left;
-  width: 60%;
+  width: 65%;
 }
 
 .image-section {
@@ -439,6 +431,7 @@ body {
   width: 400px;
 }
 
+/*breedte van foto*/
 .image-section img {
   width: 100%;
   height: auto;
@@ -447,12 +440,13 @@ body {
 .content-section .title {
   text-transform: uppercase;
   font-size: 29px;
+  color: #ffffff;
 }
 
 .content-section .content h3 {
   position: relative;
   top: 20px;
-  color: #5d5d5d;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -462,6 +456,7 @@ body {
   top: 10px;
   font-size: 20px;
   line-height: 1.5;
+  color: #fff;
 }
 
 .content-section .content .button {
@@ -470,13 +465,13 @@ body {
 }
 
 .content-section .content .button a {
-  background-color: #3d3d3d;
+  background: linear-gradient(#12104f, #262263);
   padding: 12px 40px;
   text-decoration: none;
-  color: #fff;
-  font-size: 25px;
+  color: #ffffff;
+  font-size: 20px;
   letter-spacing: 1.5px;
-  font-family: 'sen',sans-serif;
+  font-family: 'sen', sans-serif;
 }
 
 .content-section .content .button a:hover {
@@ -492,73 +487,91 @@ body {
     padding-top: 100px;
   }
 }
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-font-family: 'sen'sans-serif;
+
+
+
+/*Portfolio Pagina*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'sen' sans-serif;
 }
-.portfolio-section h1{
-font-size: 40px;
-text-align:center;
-color: #9abfe6;
-margin: 50px 0px;
+
+.portfolio-section h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin: 50px 0px;
 }
-.portfolio-lol{
-width: 85%;
-display: flex;
-justify-content: space-between;
-margin: auto;
-align-items: center;
+
+.portfolio-lol {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
 }
-.portfolio-lolo{
-display: flex;
-flex-direction: column;
-margin: 0px 15px;
-box-shadow: 0px 0px 8px rgb(236, 236, 236);
-border-radius: 10px;
-overflow: hidden;
-background-color: #fff;
-transition: transform 0.4s ease;
+
+.portfolio-lolo {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px;
+  box-shadow: 0px 0px 8px rgb(236, 236, 236);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.4s ease;
 }
-.portfolio-lolo:hover{
+
+.portfolio-lolo:hover {
   transform: translateY(-10px);
 }
-.portfolio-lolo img{
-width: 100%;
-height: auto;
+
+.portfolio-lolo img {
+  width: 100%;
+  height: auto;
 }
-.portfolio-content{
+
+.portfolio-content {
   padding: 20px;
 }
-.portfolio-content h2{
-font-size: 20px;
-margin-bottom:10px ;
+
+.portfolio-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.portfolio-content p{
-font-size:15px;
-color: #555;
-margin-bottom: 20px;
+
+.portfolio-content p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
 }
-.portfolio-content a{
-display: inline-block;
-padding: 10px 20px;
-color: #fff;
-text-decoration: none;
-border-radius: 5px;
-transition: 0.3s ease;
+
+.portfolio-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
 }
-.portfolio-content a:hover{
-background-color: #a8c6e6;
+
+.portfolio-content a:hover {
+  background-color: #a8c6e6;
 }
-@media screen and (max-width:770px){
-  .portfolio-lol{
+
+@media screen and (max-width:770px) {
+  .portfolio-lol {
     flex-direction: column;
   }
 }
-.portfolio-lolo{
+
+.portfolio-lolo {
   margin: 20px 0px;
 }
-.portfolio-image img{
-max-width:100%;
+
+.portfolio-image img {
+  max-width: 100%;
+  height: auto;
 }
