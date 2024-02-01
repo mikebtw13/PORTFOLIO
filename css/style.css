@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -301,11 +300,6 @@ footer p:nth-child(2) {
 .contact-left button img {
   height: 15px;
 }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@600&display=swap');
-
 * {
   padding: 0;
   margin: 0;
@@ -358,11 +352,11 @@ body {
 }
 
 .contact-inputs:focus {
-  border: 2px solid #262263;
+  border: 2px solid #12104f;
 }
 
 .contact-inputs::placeholder {
-  color: navy;
+  color: #12104f;
 }
 
 .contact-left button {
@@ -371,23 +365,17 @@ body {
   padding: 15px 30px;
   font-size: 15px;
   color: #fff;
-  gap: 10px;
-  border: none;
   border-radius: 50px;
-  background: linear-gradient(#151925, #151925);
-  cursor: pointer;
+  background: linear-gradient(#12104f, #12104f);
 }
 
 .contact-left button img {
   height: 15px;
 }
 
-
-
 .contact-right {
   text-align: right;
 }
-
 
 /* Over Mij Pagina */
 * {
@@ -505,7 +493,7 @@ body {
   box-shadow: 0px 0px 8px rgb(236, 236, 236);
   border-radius: 10px;
   overflow: hidden;
-  background-color:#12104f;
+  background-color: #12104f;
   transition: transform 0.4s ease;
 }
 
@@ -525,11 +513,12 @@ body {
 .portfolio-content h2 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .portfolio-content p {
   font-size: 15px;
-  color: #555;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
