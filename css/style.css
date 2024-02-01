@@ -4,12 +4,11 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Sen', sans-serif;
-  background: linear-gradient(#151925, #151925);
+  background: #151925;
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -74,11 +73,9 @@ body {
   align-items: center;
   padding: 15px 30px;
   font-size: 15px;
-  color: #fff;
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg, #050754, #fff);
   cursor: pointer;
 }
 
@@ -90,18 +87,9 @@ body {
   background-color: #151925;
   display: flex;
   width: 100%;
-  padding-right: 5px;
   align-items: start;
   justify-content: space-between;
-}
-
-@media (max-width: 991px) {
-  .main-container {
-    max-width: 100%;
-    margin-right: 7px;
-    flex-wrap: wrap;
-    padding-right: 20px;
-  }
+  padding: 10px;
 }
 
 .header {
@@ -188,13 +176,13 @@ body {
 .image img {
   height: 300px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 90%;
   border: 10px solid #ffffff;
   margin-right: -80%;
   margin-top: -55%;
 }
 
-/*Onderste gedeelte van de website*/
+/*Onderkant van de website*/
 footer {
   position: relative;
   width: 100%;
@@ -346,10 +334,11 @@ body {
 }
 
 .contact-left-title h2 {
-  font-weight: 600;
   color: #ffffff;
   font-family: 'sen', sans-serif;
+  font-size: 50px;
 }
+
 .contact-inputs {
   width: 400px;
   height: 50px;
@@ -385,7 +374,7 @@ body {
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg, #050754, #fff);
+  background: linear-gradient(#151925, #151925);
   cursor: pointer;
 }
 
@@ -488,8 +477,6 @@ body {
   }
 }
 
-
-
 /*Portfolio Pagina*/
 * {
   margin: 0px;
@@ -499,7 +486,7 @@ body {
 }
 
 .portfolio-section h1 {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: #ffffff;
   margin: 50px 0px;
@@ -508,7 +495,6 @@ body {
 .portfolio-lol {
   width: 85%;
   display: flex;
-  justify-content: space-between;
   margin: auto;
   align-items: center;
 }
@@ -516,11 +502,10 @@ body {
 .portfolio-lolo {
   display: flex;
   flex-direction: column;
-  margin: 0px 15px;
   box-shadow: 0px 0px 8px rgb(236, 236, 236);
   border-radius: 10px;
   overflow: hidden;
-  background-color: #fff;
+  background-color:#12104f;
   transition: transform 0.4s ease;
 }
 
@@ -569,6 +554,7 @@ body {
 
 .portfolio-lolo {
   margin: 20px 0px;
+  margin-right: 25px;
 }
 
 .portfolio-image img {
