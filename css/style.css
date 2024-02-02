@@ -3,11 +3,12 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Sen', sans-serif;
-  background: #151925;
+  background: #12104f, #262263;
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -18,7 +19,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'Sen', sans-serif;
 }
 
 .contact-left {
@@ -26,12 +26,12 @@ body {
   flex-direction: column;
   align-items: start;
   gap: 20px;
-  font-family: 'Sen', sans-serif;
 }
 
 .contact-left-title h2 {
   font-weight: 600;
   font-family: 'Sen', sans-serif;
+  font-size: 50px;
 }
 
 .contact-left-title hr {
@@ -50,7 +50,6 @@ body {
   padding-left: 25px;
   font-weight: 500;
   border-radius: 50px;
-  font-family: 'Sen', sans-serif;
 }
 
 .contact-left textarea {
@@ -60,11 +59,11 @@ body {
 }
 
 .contact-inputs:focus {
-  border: 2px solid #151925;
+  border: 2px solid #12104f;
 }
 
 .contact-inputs::placeholder {
-  color: #151925;
+  color: #12104f;
 }
 
 .contact-left button {
@@ -72,8 +71,6 @@ body {
   align-items: center;
   padding: 15px 30px;
   font-size: 15px;
-  gap: 10px;
-  border: none;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -92,7 +89,7 @@ body {
 }
 
 .header {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font: 800 24px 'Sen', sans-serif;
 }
 
@@ -102,8 +99,6 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 80px;
-  min-height: -10%;
-
 }
 
 @media (max-width: 991px) {
@@ -116,14 +111,12 @@ body {
 
 .nav-link {
   color: #ffffff;
-  align-self: start;
   font: 800 24px 'Sen', sans-serif;
   text-decoration: none;
 }
 
 .header-text {
   font-size: 50px;
-  font-family: 'Sen', sans-serif;
   color: #ffffff;
   margin-top: 110px;
   position: relative;
@@ -155,7 +148,6 @@ body {
   border-radius: 5px;
   margin-top: 80px;
   font-weight: bold;
-  font-family: 'Sen', sans-serif;
 }
 
 .download-button:hover {
@@ -214,7 +206,6 @@ footer p:nth-child(2) {
 }
 
 .text {
-  font-family: 'Sen', sans-serif;
   font-size: 15px;
   color: #ffffff;
 }
@@ -232,7 +223,6 @@ footer p:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left {
@@ -240,13 +230,11 @@ footer p:nth-child(2) {
   flex-direction: column;
   align-items: start;
   gap: 20px;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left-title h2 {
   font-weight: 600;
   color: #1029a5;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left-title hr {
@@ -267,7 +255,6 @@ footer p:nth-child(2) {
   font-weight: 500;
   color: #204349;
   border-radius: 50px;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left textarea {
@@ -300,6 +287,7 @@ footer p:nth-child(2) {
 .contact-left button img {
   height: 15px;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -307,7 +295,6 @@ footer p:nth-child(2) {
 }
 
 body {
-  font-family: 'sen', sans-serif;
   background: linear-gradient(#12104f, #262263);
 }
 
@@ -316,7 +303,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left {
@@ -324,12 +310,10 @@ body {
   flex-direction: column;
   align-items: start;
   gap: 20px;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left-title h2 {
   color: #ffffff;
-  font-family: 'sen', sans-serif;
   font-size: 50px;
 }
 
@@ -342,7 +326,6 @@ body {
   font-weight: 500;
   color: #204349;
   border-radius: 50px;
-  font-family: 'sen', sans-serif;
 }
 
 .contact-left textarea {
@@ -382,7 +365,6 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Sen', sans-serif;
 }
 
 .section {
@@ -448,7 +430,6 @@ body {
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 1.5px;
-  font-family: 'sen', sans-serif;
 }
 
 .content-section .content .button a:hover {
@@ -470,7 +451,6 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'sen' sans-serif;
 }
 
 .portfolio-section h1 {
